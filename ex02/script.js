@@ -1,4 +1,4 @@
-const message_box = document.querySelector("#message")
+const message_box = document.querySelector(".hora")
 
 const clock = () => {
     const agora = new Date();
@@ -13,7 +13,7 @@ const clock = () => {
     } else if ((horas === 22) && (minutos === 50)) {
         message_box.textContent = "Vamos embora, a aula acabou"
     } else {
-        message_box.textContent = ""
+        message_box.textContent = "algo"
     }
 
     const horaFormatada = `${horas}:${minutos < 10 ? `0${minutos}` : minutos}:${segundos < 10 ? `0${segundos}` : segundos}`;
