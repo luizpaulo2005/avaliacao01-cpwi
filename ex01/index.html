@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 01</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      html, body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-950 text-zinc-300 min-h-screen flex flex-col gap-3 justify-center items-center">
+    <div id="message-box" class="bg-gray-700 p-3 rounded">Mensagem</div>
+    <div class="flex flex-col text-center justify-center items-center">
+        <div class="flex gap-2 items-center">
+            <input type="text" placeholder="Digite sua mensagem aqui" id="input_message" class="outline-none shadow-sm rounded h-10 px-3 w-64 bg-zinc-900 text-white">
+            <button id="button_message" class="bg-emerald-500 rounded text-white py-2 px-3 transition-colors hover:bg-emerald-600">Adicionar</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
