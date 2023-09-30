@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercício 2</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    
-</body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      html {
+        font-family: "Noto Sans Mono", monospace, sans-serif !important;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-950 text-zinc-300 min-h-screen p-4 flex flex-col gap-3 justify-center items-center">
+    <p id="relogio" class="text-8xl"></p>
+    <p id="message" class="text-red-500 text-6xl"></p>
+    <script src="./script.js"></script>
+  </body>
 </html>
