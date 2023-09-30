@@ -16,7 +16,7 @@ const clock = () => {
         message_box.textContent = ""
     }
 
-    const horaFormatada = `${horas}:${minutos ? `0${minutos}` : minutos}:${segundos < 10 ? `0${segundos}` : segundos}`;
+    const horaFormatada = `${horas}:${minutos < 10 ? `0${minutos}` : minutos}:${segundos < 10 ? `0${segundos}` : segundos}`;
     const relogio = document.getElementById("relogio");
     relogio.textContent = horaFormatada;
   };
