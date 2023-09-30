@@ -8,9 +8,9 @@ const clock = () => {
 
     if ((horas === 19) && (minutos === 30)) {
         message_box.textContent = "Vamos para aula"
-    } else if ((horas === 22) && (minutos === 7)) {
+    } else if ((horas === 20) && (minutos === 50)) {
         message_box.textContent = "Hora do Intervalo"
-    } else if ((horas === 22) && (minutos === 8)) {
+    } else if ((horas === 22) && (minutos === 50)) {
         message_box.textContent = "Vamos embora, a aula acabou"
     } else {
         message_box.textContent = ""
